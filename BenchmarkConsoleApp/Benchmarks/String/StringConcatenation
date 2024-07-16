@@ -1,0 +1,9 @@
+namespace BenchmarkProject
+{
+    [MemoryDiagnoser]
+    [SimpleJob(launchCount: 2, warmupCount: 2, targetCount: 2)]
+    public class StringConcatenation
+    {
+        
+    }
+}
